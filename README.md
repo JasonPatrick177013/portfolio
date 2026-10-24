@@ -1,13 +1,65 @@
-# Jason Patrick | Portfolio
+# Jason Patrick | Developer Portfolio
 
-Static site (HTML, CSS, JS). No build step.
+Personal portfolio of Jason Patrick, a first-year Computer Science student at the Indian Institute of Information Technology, Bhopal. It covers my skills, projects, competitive programming profile and achievements.
 
-## Deploy on Vercel
-1. Push these files to a new GitHub repo.
-2. On vercel.com: Add New > Project > import the repo.
-3. Framework preset: **Other**. Leave build command and output directory empty. Deploy.
+**Live site:** <!-- TODO: add your Vercel URL, e.g. https://portfolio-yourname.vercel.app -->
 
-## Before you publish
-- Add your photo as `assets/photo.jpg` (initials show until then).
-- Search `index.html` for `TODO` and replace the project links (live demo, source, docs).
-- Optional: add a Codeforces profile link.
+## About the site
+
+A single-page, dark-themed portfolio with a synthwave sunset hero and HUD-style panels, organized into six sections:
+
+- **Start:** introduction and links to my profiles
+- **Skills:** languages, web development, tools and interests
+- **Projects:** things I've built, with demo and source links
+- **Contests:** Codeforces and CodeChef progress
+- **Trophies:** competitions and college activities
+- **Contact:** email and social links
+
+## Tech stack
+
+- HTML5, CSS3 and vanilla JavaScript
+- No frameworks and no build step
+- Google Fonts: Chakra Petch, Figtree and JetBrains Mono
+- Hosted on Vercel
+
+## Features
+
+- Responsive layout for desktop, tablet and mobile
+- Section minimap for navigation (a bottom dock on small screens)
+- Keyboard-friendly, with visible focus states and a skip link
+- Respects the reduced-motion setting
+- One-click "Copy email address" button
+
+## Project structure
+
+```
+.
+├── index.html   # page markup and content
+├── style.css    # theme, layout and responsive rules
+├── script.js    # minimap, count-up stats, copy-email button
+└── assets/      # images (currently unused)
+```
+
+## Run locally
+
+No installation needed. Clone the repo and open `index.html` in a browser:
+
+```bash
+git clone https://github.com/JasonPatrick177013/portfolio.git
+cd portfolio
+```
+
+To serve it on a local address instead, run `python3 -m http.server 8000` and visit `http://localhost:8000`.
+
+## Deploy
+
+The site is a static project, so Vercel serves it with no configuration. Import the repo on [vercel.com](https://vercel.com), set the framework preset to **Other**, leave the build settings empty and deploy. Each push to `main` redeploys automatically.
+
+## Contact
+
+- GitHub: [JasonPatrick177013](https://github.com/JasonPatrick177013/)
+- LinkedIn: [Jason Patrick](https://www.linkedin.com/in/jason-patrick-0025b22b2)
+- CodeChef: [azeotrope](https://www.codechef.com/users/azeotrope)
+- Email: [jasonpatrick3011@gmail.com](mailto:jasonpatrick3011@gmail.com)
+
+&copy; 2026 Jason Patrick
