@@ -1,6 +1,6 @@
 # Jason Patrick | Developer Portfolio
 
-Personal portfolio of Jason Patrick, a first-year Computer Science student at the Indian Institute of Information Technology, Bhopal. It covers my skills, projects, competitive programming profile and achievements.
+Personal portfolio of Jason Patrick, a first-year student at the Indian Institute of Information Technology, Bhopal. It covers my skills, projects, competitive programming profile and achievements.
 
 **Live site:** <!-- TODO: add your Vercel URL, e.g. https://portfolio-yourname.vercel.app -->
 
