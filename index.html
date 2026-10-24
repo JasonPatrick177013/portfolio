@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jason Patrick | Developer Portfolio</title>
+  <meta name="description" content="Jason Patrick, first-year at IIIT Bhopal. C++ programmer, competitive programmer and self-hosting tinkerer." />
+  <meta name="theme-color" content="#0b0714" />
+  <meta property="og:title" content="Jason Patrick | Developer Portfolio" />
+  <meta property="og:description" content="C++ programmer, competitive programmer and self-hosting tinkerer at IIIT Bhopal." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b0714'/><text x='50' y='67' font-size='50' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%23ff3d8b'>JP</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#skills">Skip to content</a>
+
+  <!-- Minimap: the site's rooms. Click a room to travel there. -->
+  <nav class="map" aria-label="Sections">
+    <a href="#home" data-room="home"><span>Start</span></a>
+    <a href="#skills" data-room="skills"><span>Skills</span></a>
+    <a href="#projects" data-room="projects"><span>Projects</span></a>
+    <a href="#cp" data-room="cp"><span>Contests</span></a>
+    <a href="#achievements" data-room="achievements"><span>Trophies</span></a>
+    <a href="#contact" data-room="contact"><span>Contact</span></a>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" data-room-section>
+      <div class="sky" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="floor"></div>
+      </div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hello">Hi, I'm</p>
+          <h1>Jason Patrick</h1>
+          <ul class="roles">
+            <li>Aspiring software engineer</li>
+            <li>C++ programmer</li>
+            <li>Competitive programming enthusiast</li>
+          </ul>
+          <p class="lead">
+            First-year at IIIT Bhopal. I solve problems in C++, build for the
+            web, and run my own server when I should be sleeping.
+          </p>
+          <div class="links">
+            <a class="btn solid" href="#projects">See my work</a>
+            <a class="btn" href="https://github.com/JasonPatrick177013/" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/jason-patrick-0025b22b2" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://www.codechef.com/users/azeotrope" target="_blank" rel="noopener">CodeChef</a>
+            <a class="btn" href="mailto:jasonpatrick3011@gmail.com">Email</a>
+          </div>
+          <p class="motto">Better code. Bigger dreams.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="block" data-room-section>
+      <div class="wrap">
+        <header class="head">
+          <h2>Technical skills</h2>
+          <p>What I reach for when I build.</p>
+        </header>
+
+        <div class="panels">
+          <article class="panel">
+            <h3>Languages</h3>
+            <ul class="tags"><li>C++</li><li>Java</li></ul>
+          </article>
+          <article class="panel">
+            <h3>Web development</h3>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Tailwind CSS</li><li>Node.js</li></ul>
+          </article>
+          <article class="panel">
+            <h3>Tools and platforms</h3>
+            <ul class="tags"><li>Git</li><li>GitHub</li><li>Vite</li><li>Vercel</li></ul>
+          </article>
+          <article class="panel">
+            <h3>Interests</h3>
+            <ul class="tags"><li>Data structures and algorithms</li><li>Competitive programming</li><li>Self-hosting</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="block" data-room-section>
+      <div class="wrap">
+        <header class="head">
+          <h2>Projects</h2>
+          <p>Things I've built and worked on.</p>
+        </header>
+
+        <div class="projects">
+          <article class="project">
+            <div class="art art-event" aria-hidden="true">
+              <span>The event is live</span>
+            </div>
+            <div class="info">
+              <h3>Among Us-themed event landing page</h3>
+              <ul class="tags small"><li>Node.js</li><li>Vite</li><li>Tailwind CSS</li><li>Vercel</li></ul>
+              <p>A themed landing page for a college event. Styled with Tailwind CSS, built with Vite and deployed on Vercel.</p>
+              <div class="actions">
+                <!-- TODO: replace both URLs with your live demo and repo -->
+                <a href="https://github.com/JasonPatrick177013/" target="_blank" rel="noopener">Live demo</a>
+                <a href="https://github.com/JasonPatrick177013/" target="_blank" rel="noopener">Source code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="art art-term" aria-hidden="true">
+              <code>$ ./self_host --music<br />&gt; streaming<br />&gt; freedom<i></i></code>
+            </div>
+            <div class="info">
+              <h3>Personal self-hosted server</h3>
+              <ul class="tags small"><li>Self-hosting</li><li>Linux</li></ul>
+              <p>My own server for streaming music and trying out self-hosted services.</p>
+              <div class="actions">
+                <!-- TODO: replace with your documentation URL -->
+                <a href="https://github.com/JasonPatrick177013/" target="_blank" rel="noopener">Documentation</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETITIVE PROGRAMMING -->
+    <section id="cp" class="block" data-room-section>
+      <div class="wrap">
+        <header class="head">
+          <h2>Competitive programming</h2>
+          <p>Practice, improve, repeat.</p>
+        </header>
+
+        <div class="cp">
+          <div class="stats">
+            <div class="stat">
+              <span class="label">Codeforces</span>
+              <b data-count="100" data-suffix="+">100+</b>
+              <span class="unit">problems solved</span>
+            </div>
+            <div class="stat">
+              <span class="label">CodeChef</span>
+              <b data-count="1193">1193</b>
+              <span class="unit">rating</span>
+            </div>
+            <a class="textlink" href="https://www.codechef.com/users/azeotrope" target="_blank" rel="noopener">View my CodeChef profile</a>
+          </div>
+
+          <pre class="code" aria-label="C++ template"><code><span class="k">#include</span> &lt;bits/stdc++.h&gt;
+<span class="k">using namespace</span> std;
+
+<span class="k">int</span> <span class="f">main</span>() {
+    ios::sync_with_stdio(<span class="k">false</span>);
+    cin.tie(<span class="k">nullptr</span>);
+
+    <span class="c">// solve it here</span>
+    <span class="k">return</span> 0;
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="block" data-room-section>
+      <div class="wrap">
+        <header class="head">
+          <h2>Achievements and activities</h2>
+          <p>Beyond code: competitions and college events.</p>
+        </header>
+
+        <ul class="trophies">
+          <li>
+            <h3>Brumble Matiks</h3>
+            <p>Qualified for Phase 2 as part of a six-member team.</p>
+          </li>
+          <li>
+            <h3>Strategy Blitz 2.0</h3>
+            <p>Took part in an AI-powered ideathon.</p>
+          </li>
+          <li>
+            <h3>Rhetorix, UDGOSH debate</h3>
+            <p>Finished in the top 16.</p>
+          </li>
+          <li>
+            <h3>Event organization</h3>
+            <p>Helped run school events and learned how to coordinate a team.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block last" data-room-section>
+      <div class="wrap">
+        <div class="save">
+          <div>
+            <h2>Want to build something together?</h2>
+            <p>I'm open to new opportunities, collaborations and good conversations. Send me a message.</p>
+          </div>
+          <div class="save-actions">
+            <a class="btn solid" href="mailto:jasonpatrick3011@gmail.com">Email me</a>
+            <button class="btn" id="copy" type="button">Copy email address</button>
+            <div class="links small">
+              <a href="https://github.com/JasonPatrick177013/" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://www.linkedin.com/in/jason-patrick-0025b22b2" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://www.codechef.com/users/azeotrope" target="_blank" rel="noopener">CodeChef</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>&copy; 2026 Jason Patrick</span>
+      <span>Learn. Build. Improve.</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
